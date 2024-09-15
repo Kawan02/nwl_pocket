@@ -34,7 +34,6 @@ export function CreateGoal() {
     })
 
   async function handleCreateGoal(data: CreateGoalForm) {
-    console.log(data)
     await createGoal({
       title: data.title,
       desiredWeekLyFrequency: data.desiredWeeklyFrequency,
